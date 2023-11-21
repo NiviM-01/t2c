@@ -1,0 +1,520 @@
+/* *{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+} */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*media queries*/
+@media only screen and (min-width: 600px) {
+
+  /* navbar */
+  .navbar-font {
+    font-size: 20px;
+  }
+
+  /* home page */
+  .startdayfont {
+    font-size: 50px;
+
+  }
+}
+
+.getintouchline {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+}
+
+.text-color {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 169px;
+}
+
+.text-colormob {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 103px;
+}
+
+.text-colormob2 {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 109px;
+}
+
+.text-color3 {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 187px;
+}
+
+.text-color3mob {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 146px;
+}
+
+.text-color4 {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 184px;
+}
+
+.text-color5 {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 248px;
+}
+
+.textcolor {
+  box-shadow: inset 0px -15px 0px 0px rgba(0, 115, 136, 1);
+  width: 230px;
+}
+
+.textcolor6 {
+  box-shadow: inset 0px -15px 0px 0px rgba(0, 115, 136, 1);
+  width: 177px;
+}
+
+.textcolormob {
+  box-shadow: inset 0px -13px 0px 0px rgba(0, 115, 136, 1);
+  width: 134px;
+}
+
+.textcolormob4 {
+  box-shadow: inset 0px -13px 0px 0px rgba(0, 115, 136, 1);
+  width: 139px;
+}
+
+.textcolor2 {
+  box-shadow: inset 0px -15px 0px 0px rgba(0, 115, 136, 1);
+  width: 105px;
+}
+
+.textcolor3mob {
+  box-shadow: inset 0px -15px 0px 0px rgba(0, 115, 136, 1);
+  width: 282px;
+}
+
+.text-expertise {
+  box-shadow: inset 0px -15px 0px 0px rgba((25, 143, 165, 1));
+  width: 138px;
+}
+
+/*navbar*/
+.navmenucolor {
+  color: #0799B8;
+}
+
+/*footer*/
+.footerbgcolor {
+  background-color: rgba(97, 159, 252, 0.44)
+}
+
+.footerimgposition {
+  position: absolute;
+  margin-top: -155px
+}
+
+.footercolor {
+  background: rgba(234, 234, 234, 1);
+}
+
+.footerimgposition {
+  position: absolute;
+  margin-top: -176px
+}
+
+.font-color {
+  box-shadow: inset 0px -15px 0px 0px rgba(23, 162, 187, 0.30);
+  width: 180px;
+
+}
+
+.font-color2 {
+  box-shadow: inset 0px -15px 0px 0px rgba(23, 162, 187, 0.30);
+}
+
+/*home page*/
+.cardsubhead {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .imagetop {
+    top: 1000px;
+  }
+}
+
+.shadowpositionleft {
+  left: 5%;
+  top: 54%;
+}
+
+.mobcard {
+  border-radius: 149px !important;
+}
+
+.shadowpositionright {
+  right: 5%;
+  top: 54%;
+  z-index: -1;
+}
+
+.shadowpositiontop {
+  right: 33%;
+  bottom: 46%;
+}
+
+.left {
+  left: 1%;
+  width: 48%;
+}
+
+.right {
+  left: 49%;
+  top: 33%;
+  width: 49%;
+
+}
+
+.left2 {
+  width: 49%;
+  top: 67%;
+  left: 0%
+}
+
+.text-position {
+  top: 150px;
+}
+
+.image {
+  margin-left: 296px;
+  margin-top: -204px;
+
+}
+
+.relative {
+  position: relative;
+}
+
+
+.cardhover:hover {
+  background-color: #B9D5FE;
+  cursor: pointer;
+}
+
+.lapimgposition {
+  top: -170px;
+}
+
+.lapimgpositionmob {
+  top: -100px;
+}
+
+.buttonColor {
+  background: #EDFCFF !important;
+  cursor: pointer;
+}
+
+.buttonColorhover:hover {
+  background: #EDFCFF !important;
+  cursor: pointer;
+}
+
+.contentbackground {
+  background: #E8E8E8;
+  border-radius: 2%;
+}
+
+.buttonbackgroundradiusleft {
+  background: #E8E8E8;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+}
+
+.buttonbackgroundradiusright {
+  background: #E8E8E8;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+.positioncard {
+  top: 144px;
+  left: 86px;
+  width: 33%
+}
+
+.positioncard2 {
+  top: 143px;
+  left: 788px;
+  width: 32%
+}
+
+.positioncardcenter {
+  top: -60px;
+  left: 440px;
+  width: 32%
+}
+
+@media only screen and (max-width: 600px) {
+
+  .tabtext {
+    font-size: 12px !important;
+  }
+
+  .icon-size {
+    width: 15% !important;
+  }
+}
+
+.pagenumber {
+  font-size: 12px !important;
+}
+
+.tabs {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 3px solid rgba(50, 197, 224, 1) !important;
+  color: #007296 !important;
+}
+
+.roundedcard {
+  /* border-radius: 50% !important; */
+  /* box-shadow: 0px 0px 0px 50px rgba(0, 0, 0, 0.5); */
+}
+
+.roundedcard1 {
+  /* border-radius: 60% !important; */
+  border: none !important;
+  box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50% !important;
+}
+
+.circle {
+  border-radius: 50% !important;
+}
+
+.homeheadcolor {
+  color: rgba(115, 190, 206, 1);
+}
+
+.slidecolor {
+  color: rgba(84, 177, 194, 1);
+}
+
+
+
+.img {
+  top: 41px;
+  right: 143px;
+}
+
+.card-color {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carouselbuttoncolor {
+  border: solid 1px #636363 !important;
+  border-radius: 5px !important;
+  width: 70px !important;
+  margin: 0px !important;
+}
+
+.carouselbuttoncolor.active {
+  background: linear-gradient(to bottom, #00BCE4 100%, #73BECE 42%);
+}
+
+/* Expertise */
+
+.Offeringscard {
+  box-shadow: 8px 7px 29px -15px;
+}
+
+/*industries*/
+.bgcolor {
+  background: rgba(51, 51, 51, 1);
+}
+
+.cardwidth {
+  width: 50%;
+}
+
+.cardcolor {
+
+  background: rgba(245, 245, 245, 1);
+  border: rgba(187, 187, 187, 1);
+
+}
+
+/*about us*/
+.cardtopborder {
+  border-top: solid 4px #32C5E0 !important;
+}
+
+.para-color {
+  background: rgba(185, 213, 254, 1);
+}
+
+.minus {
+  color: rgba(50, 197, 224, 1);
+
+}
+
+.box-color {
+  background: rgba(51, 51, 51, 1);
+}
+
+.card-overlay {
+  background: rgba(66, 66, 66, 0.5);
+}
+
+.textOverlap {
+  position: absolute;
+  background: rgba(185, 213, 254, 1);
+  padding: 28px;
+  right: 5%;
+}
+
+.textOverlaptwo {
+  position: absolute;
+  background: rgba(185, 213, 254, 1);
+  padding: 28px;
+  left: 5%;
+}
+
+.headalign {
+  position: absolute;
+  padding: 28px;
+  left: 6%;
+  top: 35%
+}
+
+.paraalign {
+  position: absolute;
+  padding: 28px;
+  left: 2%;
+  top: 32%
+}
+
+.max {
+  min-height: 58px;
+}
+
+/*contact us*/
+@media only screen and (min-width: 1000px) {
+  .ourproductexperttext {
+    font-size: 38px !important;
+  }
+}
+
+.textareacolor {
+  background: #EEEEEE !important;
+}
+
+.inputcolor {
+  background: #EEEEEE !important;
+  height: 65px !important;
+}
+
+
+/* Home bubble resp */
+@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+  .bubbles {
+    margin-top: -12.10% !important;
+  }
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1401px) {
+  .bubbles {
+    margin-top: -6.7% !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width:1030px) {
+  .bubbles {
+    margin-top: -42px !important
+  }
+}
+
+@media only screen and (max-width: 1030px) and (min-width:1024px) {
+  .bubbles {
+    margin-top: -5px !important
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px) {
+  .bubbles {
+    margin-top: 34px !important
+  }
+}
+
+/*insights*/
+.paginationcolor {
+  background-color: #E9E9E9 !important;
+  color: black !important;
+}
+
+.paginationcoloractive {
+  background-color: #B9D5FE !important;
+  color: black !important;
+}
+
+.insight-head {
+  top: 55%;
+  left: 45%;
+}
+
+.headtext-color {
+  box-shadow: inset 0px -15px 0px 0px rgba(25, 143, 165, 1);
+}
+
+.headtext2-color {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 164px;
+}
+
+.headtextmob-color {
+  box-shadow: inset 0px -15px 0px 0px rgba(50, 197, 224, 1);
+  width: 128px;
+}
+
+
+/* About us */
+.card-bgcolor{
+  background-color: rgba(126, 130, 153, 0.18) !important;
+  border-radius: 20px !important;
+  height: 300px !important;
+}
+.card-textheader {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.card-paratext{
+color: #A9A4AB;
+font-weight: 300;
+font-size: 16px;
+}
+@media only screen and (max-width: 1100px) and (min-width:600px) {
+  .card-textheader {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .card-paratext{
+  color: #A9A4AB;
+  font-weight: 300;
+  font-size: 8px;
+  }
+  .card-bgcolor{
+    background-color: rgba(126, 130, 153, 0.18) !important;
+    border-radius: 20px !important;
+    height: 200px !important;
+  }
+}
+
